@@ -49,10 +49,10 @@ class Student():
 
         # alternative way to do the above
         # if (len(self.pending_homeworks) <= 0):
-        #     print(self.name + " has no outstanding homeworks.")
+        #     print(str(self.name) + " has no outstanding homeworks.")
         # else:
         #     for homework in self.pending_homeworks:
-        #         print(self.name + " needs to complete " + homework.name)
+        #         print(str(self.name) + " needs to complete " + str(homework.name))
 
 
 class SeiClass():
